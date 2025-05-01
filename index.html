@@ -14,6 +14,24 @@
     <button onclick="triggerAnimation()">Animate Box</button>
     <button onclick="toggleTheme()">Toggle Theme</button>
 
+    <form onsubmit="saveName(event)">
+      <input type="text" id="username" placeholder="Enter your name" required />
+      <button type="submit">Save Name</button>
+    </form>
+
+    <p id="greeting"></p>
+
+    <div class="gallery">
+      <img src="images/image 1.jpg" alt="Image 1" />
+      <img src="images/pic 2.jpg" alt="Image 2" />
+      <img src="images/pic 3.jpg" alt="Image 3" />
+    </div>
+
+    <audio
+      id="clickSound"
+      src="https://www.soundjay.com/buttons/sounds/button-29.mp3"
+    ></audio>
+
     <script src="script.js"></script>
   </body>
 </html>
